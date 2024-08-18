@@ -1,0 +1,9 @@
+.\objects\mempool.o: ..\Source\OS\kernel\src\mempool.c
+.\objects\mempool.o: ..\Source\OS\kernel\inc\rthw.h
+.\objects\mempool.o: ..\Source\OS\kernel\inc\rtthread.h
+.\objects\mempool.o: ..\Source\OS\bsp\rtconfig.h
+.\objects\mempool.o: ..\Source\OS\kernel\inc\rtthread.h
+.\objects\mempool.o: ..\Source\OS\kernel\inc\rtdebug.h
+.\objects\mempool.o: ..\Source\OS\kernel\inc\rtdef.h
+.\objects\mempool.o: D:\SoftWare\InstallDirect\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mempool.o: ..\Source\OS\kernel\inc\rtservice.h

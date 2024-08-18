@@ -1,0 +1,290 @@
+{
+  "name": "LED",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "CORE",
+        "files": [
+          {
+            "path": "../CORE/cmsis_armcc.h"
+          },
+          {
+            "path": "../CORE/cmsis_armclang.h"
+          },
+          {
+            "path": "../CORE/cmsis_compiler.h"
+          },
+          {
+            "path": "../CORE/core_cm3.h"
+          },
+          {
+            "path": "../CORE/startup_stm32f103xe.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HALLIB",
+        "files": [
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c"
+          },
+          {
+            "path": "../HALLIB/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HARDWARE",
+        "files": [
+          {
+            "path": "../HARDWARE/LED/led.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "README",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "SYSTEM",
+        "files": [
+          {
+            "path": "../SYSTEM/delay/delay.c"
+          },
+          {
+            "path": "../SYSTEM/sys/sys.c"
+          },
+          {
+            "path": "../SYSTEM/usart/usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "main.c"
+          },
+          {
+            "path": "stm32f1xx_hal_msp.c"
+          },
+          {
+            "path": "stm32f1xx_it.c"
+          },
+          {
+            "path": "system_stm32f1xx.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "6a819c35d110b3918760c520f92d99cc"
+  },
+  "targets": {
+    "LED": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "LED.hex",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/led.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../CORE",
+          ".",
+          "../SYSTEM/delay",
+          "../SYSTEM/sys",
+          "../SYSTEM/usart",
+          "../HALLIB/STM32F1xx_HAL_Driver/Inc",
+          "../HARDWARE/LED",
+          ".cmsis/include",
+          "RTE/_LED",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F103xE"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

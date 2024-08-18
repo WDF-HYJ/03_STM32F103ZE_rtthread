@@ -1,0 +1,9 @@
+.\objects\ipc.o: ..\Source\OS\kernel\src\ipc.c
+.\objects\ipc.o: ..\Source\OS\kernel\inc\rtthread.h
+.\objects\ipc.o: ..\Source\OS\bsp\rtconfig.h
+.\objects\ipc.o: ..\Source\OS\kernel\inc\rtthread.h
+.\objects\ipc.o: ..\Source\OS\kernel\inc\rtdebug.h
+.\objects\ipc.o: ..\Source\OS\kernel\inc\rtdef.h
+.\objects\ipc.o: D:\SoftWare\InstallDirect\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\ipc.o: ..\Source\OS\kernel\inc\rtservice.h
+.\objects\ipc.o: ..\Source\OS\kernel\inc\rthw.h

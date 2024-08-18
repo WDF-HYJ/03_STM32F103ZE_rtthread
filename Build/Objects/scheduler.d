@@ -1,0 +1,9 @@
+.\objects\scheduler.o: ..\Source\OS\kernel\src\scheduler.c
+.\objects\scheduler.o: ..\Source\OS\kernel\inc\rtthread.h
+.\objects\scheduler.o: ..\Source\OS\bsp\rtconfig.h
+.\objects\scheduler.o: ..\Source\OS\kernel\inc\rtthread.h
+.\objects\scheduler.o: ..\Source\OS\kernel\inc\rtdebug.h
+.\objects\scheduler.o: ..\Source\OS\kernel\inc\rtdef.h
+.\objects\scheduler.o: D:\SoftWare\InstallDirect\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\scheduler.o: ..\Source\OS\kernel\inc\rtservice.h
+.\objects\scheduler.o: ..\Source\OS\kernel\inc\rthw.h
