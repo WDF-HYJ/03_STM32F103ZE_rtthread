@@ -1,9 +1,0 @@
-.\objects\idle.o: ..\Source\OS\kernel\src\idle.c
-.\objects\idle.o: ..\Source\OS\kernel\inc\rthw.h
-.\objects\idle.o: ..\Source\OS\kernel\inc\rtthread.h
-.\objects\idle.o: ..\Source\OS\bsp\rtconfig.h
-.\objects\idle.o: ..\Source\OS\kernel\inc\rtthread.h
-.\objects\idle.o: ..\Source\OS\kernel\inc\rtdebug.h
-.\objects\idle.o: ..\Source\OS\kernel\inc\rtdef.h
-.\objects\idle.o: D:\SoftWare\InstallDirect\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\idle.o: ..\Source\OS\kernel\inc\rtservice.h

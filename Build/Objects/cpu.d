@@ -1,9 +1,0 @@
-.\objects\cpu.o: ..\Source\OS\kernel\src\cpu.c
-.\objects\cpu.o: ..\Source\OS\kernel\inc\rtthread.h
-.\objects\cpu.o: ..\Source\OS\bsp\rtconfig.h
-.\objects\cpu.o: ..\Source\OS\kernel\inc\rtthread.h
-.\objects\cpu.o: ..\Source\OS\kernel\inc\rtdebug.h
-.\objects\cpu.o: ..\Source\OS\kernel\inc\rtdef.h
-.\objects\cpu.o: D:\SoftWare\InstallDirect\Keil\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\cpu.o: ..\Source\OS\kernel\inc\rtservice.h
-.\objects\cpu.o: ..\Source\OS\kernel\inc\rthw.h
